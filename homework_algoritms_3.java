@@ -44,11 +44,6 @@ public class homework_algoritms_3 {
         }
     }
 
-    /**
-     * Класс списка
-     *
-     * @param <T>
-     */
     public static class LinkedList<T> implements Iterable {
         ListItem<T> head;
         ListItem<T> tail;
@@ -72,11 +67,7 @@ public class homework_algoritms_3 {
             };
         }
 
-        /**
-         * Класс отдельного элемента
-         *
-         * @param <T>
-         */
+   
         private static class ListItem<T> {
             T data;
             ListItem<T> next;
